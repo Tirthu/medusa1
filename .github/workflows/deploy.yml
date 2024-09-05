@@ -38,3 +38,9 @@ jobs:
 
       - name: Notify Deployment Success
         run: echo "Deployment successful!"
+
+      - name: Terraform Version
+        run: terraform version
+
+      - name: Terraform Validate
+        run: terraform validate
